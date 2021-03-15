@@ -1,0 +1,31 @@
+.search-bar {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+    & input {
+        appearance: none;
+        background: none;
+        border: none;
+        outline: none;
+        border: 1px solid #cf6679;
+        border-radius: 0 15px 0 15px;
+        text-align: center;
+        padding: 10px 0;
+        width: 20%;
+        background-color: #272727;
+        color: #cf6679;
+        transition: 0.4s ease;
+        font-size: 1.5em;
+    }
+    & input:hover {
+        background-color: silver;
+    }
+    & input:focus {
+        background-color: rgba(255, 255, 255, 0.8);
+        border: 1px solid #cf6679;
+        border-radius: 0 15px 0 15px;
+    }
+    & input::placeholder {
+        color: #cf6679;
+    }
+}

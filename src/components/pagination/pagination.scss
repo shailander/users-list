@@ -1,0 +1,25 @@
+.pagination {
+    height: 5vh;
+    text-align: center;
+    margin-top: 20px;
+    .pagination-button {
+        border: 2px solid #cf6679;
+        background-color: #121212;
+        font-weight: bolder;
+        color: #cf6679;
+        cursor: pointer;
+        outline: none;
+    }
+    .pagination-button:hover {
+        background-color: silver;
+    }
+    .pagination-button:disabled {
+        opacity: 0.5;
+        background-color: #121212;
+        color: #cf6679;
+        cursor: not-allowed;
+    }
+    & span {
+        color: #cf6679;
+    }
+}
